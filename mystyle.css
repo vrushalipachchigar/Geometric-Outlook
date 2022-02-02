@@ -1,0 +1,387 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-clr {
+    background-color: #4C2DA2;
+}
+
+div.no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.container-fluid,
+div.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.text-center {
+    text-align: center;
+}
+
+nav.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+nav.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+nav.navpad {
+    padding: 0rem 1rem;
+}
+
+div.containerr {
+    max-width: max-content;
+}
+
+a.redd {
+    background-color: #F5485A;
+}
+
+.bgcolor {
+    background-color: #5031A9;
+}
+
+div.h1,
+div.h3 {
+    margin-bottom: 0.5rem;
+}
+
+.white {
+    color: white;
+}
+
+.yellow {
+    color: #F6AA06;
+}
+
+ol.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 5px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #F5485A;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+}
+
+ol.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: left;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.top {
+    padding-top: 70px;
+}
+
+.parent {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container img {
+    vertical-align: auto;
+}
+
+
+/* .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: #3e649393;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+} */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins' sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+
+/* Make the image to responsive */
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    text-align: left;
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+div.l1 {
+    background: #a180b5b2;
+    text-align: center;
+}
+
+div.l2 {
+    background: #ffbd619f;
+    text-align: center;
+}
+
+div.l3 {
+    background: #4a80bdaf;
+    text-align: center;
+}
+
+div.l4 {
+    background: #c11f2783;
+    text-align: center;
+}
+
+p.no-space,
+h3.no-space,
+h4.no-space,
+h6.no-space,
+h5.no-space {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.purple {
+    color: #5C489E;
+}
+
+button.btn-yellow {
+    color: white;
+    background-color: #F7CD11;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    max-width: 1000px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+}
+
+.chng:hover {
+    color: #F5485A;
+    cursor: pointer;
+}
+
+i.hov:hover {
+    color: #F6AA06;
+}
+
+img.bw {
+    filter: grayscale(100%);
+}
+
+img.bw:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.boxed {
+    border: 1px dotted lightgray;
+    background-color: #f5485960;
+    font-family: serif;
+}
+
+button.btn-pink {
+    background-color: #F5485A;
+    color: mintcream;
+    font-weight: bold;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    background-color: #5031A9;
+    border-bottom: 1px solid #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* LABEL ======================================= */
+
+label {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+/* active state */
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* BOTTOM BARS ================================= */
+
+.bar {
+    position: relative;
+    display: unset;
+    width: 300px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: white;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+
+/* active state */
+
+input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+}
+
+
+/* HIGHLIGHTER ================================== */
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+
+/* active state */
+
+input:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+
+/* ANIMATIONS ================ */
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5031A9;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5031A9;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5031A9;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+i:hover {
+    color: #F6AA06;
+}
