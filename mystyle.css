@@ -163,6 +163,11 @@ body {
     opacity: 1;
 }
 
+.no-spc {
+    margin-top: 0.5rem;
+    margin-left: 0;
+}
+
 div.l1 {
     background: #a180b5b2;
     text-align: center;
@@ -233,9 +238,16 @@ img.bw:hover {
 }
 
 .boxed {
-    border: 1px dotted lightgray;
-    background-color: #f5485960;
-    font-family: serif;
+    border: 1px dotted #F6F6F6;
+    padding: 0.3rem;
+    color: #AAAAAA;
+    background-color: #bebebe59;
+    /* font-family: serif; */
+}
+
+div.guters {
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 button.btn-pink {
@@ -384,4 +396,30 @@ input:focus~.highlight {
 
 i:hover {
     color: #F6AA06;
+}
+
+header,
+main,
+.placeholder {
+    position: relative;
+    /* crucial for z-index to work */
+}
+
+header,
+main {
+    z-index: 10;
+}
+
+.placeholder {
+    z-index: 1;
+    height: 568px;
+    /* same as footer height */
+}
+
+footer.ftr {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    height: 568px;
 }
