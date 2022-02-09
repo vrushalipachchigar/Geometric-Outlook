@@ -4,6 +4,8 @@ https://vrushalipachchigar.github.io/Geometric-Outlook/
 
 A static Webpage made by using Bootstrap and adding many new features and styling to make it look more attractive.
 
+I also used jQuery for applying basic fading effects that were difficult to achieve using CSS.
+
 ## 💻 Tools and Technologies:
 
 <p> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
